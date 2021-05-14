@@ -42,6 +42,7 @@ Makie.ylims!(ax1, [0.0, 12.0])
 plt1 = f1.scene
 ax1.title = "Collins Toggle Switch Nullclines"
 display(f1)
+save("ToggleField_nullclines.png", f1)
 
 
 
